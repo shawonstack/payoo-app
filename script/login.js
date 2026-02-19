@@ -15,7 +15,7 @@ document.getElementById('login-btn').addEventListener('click', function () {
   // match the pin and number
   if (contactNumber == 01234567890 && pinNumber == 1213) {
     alert('login sccess');
-    window.location.assign('/home.html');
+    window.location.assign('home.html');
   } else {
     alert('login Failed');
     return;
